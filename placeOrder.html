@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+   <title>Order Sheet</title>
+   <link rel="stylesheet" href="placeOrder.css">
+</head>
+<body>
+    <div class="orderSheet">
+        <div class="h1">
+            <h1>Place an order: </h1>
+        </div>
+        
+        <div>
+            <form action="">            <!--add text input field for orders-->
+                <label for="firstName">First Name:</label><br>
+                <input type="text" name="firstName"></input><br>     <!--first-name input-->
+    
+                <label for="lastName">Last Name:</label><br>        <!--last-name input-->
+                <input type="text" name="lastName"></input><br>
+
+                <label for="phone">Phone Number:</label><br>        <!--phone number input-->
+                <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+
+                <label for="email">e-mail:</label><br>          <!-- email input -->
+                <input type="email" name="email"><br>
+
+                <label for="choice">Your order:</label>
+                <input type="radio" name="cafecito">Un Cafecito     <!--radio buttons for choice-->
+                <input type="radio" name="conchas">Conchas
+                <input type="radio" name="Flan">Flan
+    
+                <br>
+                <input type="button" value="submit" onclick="window.location.href='index.html'" size="100">     <!--add submit button-->
+            </form>
+        </div>
+        
+    </div>      <!--end form div-->
+</body>
+</html>

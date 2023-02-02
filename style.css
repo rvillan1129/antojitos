@@ -1,0 +1,119 @@
+.title{
+    color: whitesmoke;
+    background-color:  #4b697e;
+    text-align: center;
+
+    /* flex attributes */
+    display: flex;
+    padding: 10px;
+    margin: 5 0 5 0;
+}
+.menu{
+    color: white;
+    background-color: #b49681;
+    text-align: center;
+      
+    /* flex attributes */
+    display: flex;
+    padding: 10px;
+}
+.footer{
+    color: white;
+    background-color: #4b697e;
+    text-align: center;
+
+    /* flex attributes */
+    display: flex;
+    padding: 1px 5px 1px 5px;
+    justify-content: center;
+}
+.h1{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 300;
+}
+.h2{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+.h2{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+}
+.paragraph{
+    font-weight: 200;
+    font-size: medium;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+table, th, td{
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(240, 248, 255);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orderButton{
+    font-size: 27px; 
+    line-height: 27px;
+}
+
+/* flex divs */
+.menuFlexDiv{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #4b697e;
+
+
+}
+
+.footerDiv{
+    flex: 1;
+    padding: 2px;
+    width: 100%;
+}
+
+.titleFlexDiv_1{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+.titleFlexDiv_2{
+    flex: 3;
+    padding: 10px;
+    margin: 10px;
+}
+.titleFlexBtn{
+    font-family: sans-serif;
+    font-style: oblique;
+
+    /* flex attributes */
+    flex: 2;
+    padding: 2px;
+    margin: 2px;
+}
+
+/* a tag attributes */
+a:link, a:visited {
+    background-color: #4b697e;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #3d5464;
+  }
+
+/* image tag attributes */
+img {
+    border-radius: 25%;
+}

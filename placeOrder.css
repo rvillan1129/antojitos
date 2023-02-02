@@ -1,0 +1,16 @@
+.orderSheet{
+    color: white;
+    background-color: #bc8f8f;
+    text-align: center;
+
+    /* flex attributes */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+.h1{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
